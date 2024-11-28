@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0875cdee-21c2-4caf-b50d-2ab13e7886bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2otPJRODufm2IppILd5zIBxa1Dg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.LoginPageTests.invalidLogin.executor": "Run",
+    "TestNG.LoginPageTests.testDataBaseConnectivity.executor": "Run",
+    "TestNG.LoginPageTests.validLoginWithEmail.executor": "Debug",
+    "TestNG.LoginPageTests.validLoginWithUserName (1).executor": "Run",
+    "TestNG.LoginPageTests.validLoginWithUserName.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Intellij Projects/BankingProject",
+    "onboarding.tips.debug.path": "C:/Intellij Projects/BankingProject/src/main/java/com/flipkart/automation/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.33908045",
+    "settings.editor.selected.configurable": "settings.sync"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.LoginPageTests.testDataBaseConnectivity">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTests.invalidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bankApp-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bankApp.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bankApp.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.bankApp.Tests.LoginPageTests" />
+      <option name="METHOD_NAME" value="invalidLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTests.testDataBaseConnectivity" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bankApp-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bankApp.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bankApp.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.bankApp.Tests.LoginPageTests" />
+      <option name="METHOD_NAME" value="testDataBaseConnectivity" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTests.validLoginWithEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bankApp-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bankApp.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bankApp.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.bankApp.Tests.LoginPageTests" />
+      <option name="METHOD_NAME" value="validLoginWithEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTests.validLoginWithUserName (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bankApp-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bankApp.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bankApp.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.bankApp.Tests.LoginPageTests" />
+      <option name="METHOD_NAME" value="validLoginWithUserName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTests.validLoginWithUserName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BankingProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bankApp.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bankApp.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.bankApp.Tests.LoginPageTests" />
+      <option name="METHOD_NAME" value="validLoginWithUserName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginPageTests.testDataBaseConnectivity" />
+        <item itemvalue="TestNG.LoginPageTests.validLoginWithEmail" />
+        <item itemvalue="TestNG.LoginPageTests.invalidLogin" />
+        <item itemvalue="TestNG.LoginPageTests.validLoginWithUserName (1)" />
+        <item itemvalue="TestNG.LoginPageTests.validLoginWithUserName" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0875cdee-21c2-4caf-b50d-2ab13e7886bf" name="Changes" comment="" />
+      <created>1731685827908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731685827908</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.24.0/selenium-api-4.24.0.jar!/org/openqa/selenium/WebElement.class</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,797 @@
+2024-11-19 17:45:59 INFO  c.b.T.LoginPageTests:45 - Setting up driver ...
+2024-11-19 17:46:01 INFO  c.b.T.LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 17:46:01 INFO  c.b.T.LoginPageTests:67 - Driver setup complete ...
+2024-11-19 17:46:01 INFO  c.b.T.LoginPageTests:21 - Login Page is Initialised
+2024-11-19 17:46:02 INFO  c.b.u.ActionUtils:95 - Fetching title of page...
+2024-11-19 17:46:02 INFO  c.b.p.l.LoginPage:74 - Expected page title: Login - HP Banking
+2024-11-19 17:46:02 INFO  c.b.p.l.LoginPage:75 - Fetch page title: Login - HP Banking
+2024-11-19 17:46:02 INFO  c.b.T.LoginPageTests:25 - Login Page is opened
+2024-11-19 17:46:02 INFO  c.b.p.l.LoginPage:41 - Minal_Ch
+2024-11-19 17:46:02 INFO  c.b.p.l.LoginPage:43 - 12345
+2024-11-19 17:46:02 INFO  c.b.p.l.LoginPage:46 - Sign In button clicked
+2024-11-19 17:46:03 INFO  c.b.u.ActionUtils:95 - Fetching title of page...
+2024-11-19 17:46:03 INFO  c.b.p.l.LoginPage:89 - Fetch page title: User Dashboard - HP Banking
+2024-11-19 17:47:55 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 17:47:56 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 17:47:56 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 17:47:56 INFO  LoginPageTests:21 - Login Page is Initialised
+2024-11-19 17:47:58 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 17:47:58 INFO  LoginPage:74 - Expected page title: Login - HP Banking
+2024-11-19 17:47:58 INFO  LoginPage:75 - Fetch page title: Login - HP Banking
+2024-11-19 17:47:58 INFO  LoginPageTests:25 - Login Page is opened
+2024-11-19 17:47:58 INFO  LoginPage:41 - Minal_Ch
+2024-11-19 17:47:58 INFO  LoginPage:43 - 12345
+2024-11-19 17:47:58 INFO  LoginPage:46 - Sign In button clicked
+2024-11-19 17:47:58 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 17:47:58 INFO  LoginPage:89 - Fetch page title: User Dashboard - HP Banking
+2024-11-19 17:47:59 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 19:04:14 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 19:04:17 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 19:04:17 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 19:04:17 INFO  LoginPageTests:21 - Login Page is Initialised
+2024-11-19 19:04:19 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 19:04:19 INFO  LoginPage:74 - Expected page title: Login - HP Banking
+2024-11-19 19:04:19 INFO  LoginPage:75 - Fetch page title: Login - HP Banking
+2024-11-19 19:04:19 INFO  LoginPageTests:25 - Login Page is opened
+2024-11-19 19:04:19 INFO  TestData:66 - Row 1 data: {UserName/Email=invalid@example.com, ExpectedMessage=Invalid credentials, Password=invalidPassword}
+2024-11-19 19:04:19 INFO  TestData:66 - Row 2 data: {UserName/Email=, ExpectedMessage=Email or Phone required, Password=password}
+2024-11-19 19:04:19 INFO  TestData:66 - Row 3 data: {UserName/Email=email@example.com, ExpectedMessage=Password required, Password=}
+2024-11-19 19:04:20 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 21:29:27 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 21:29:28 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 21:29:28 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 21:29:28 INFO  LoginPageTests:21 - Login Page is Initialised
+2024-11-19 21:29:30 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:29:30 INFO  LoginPage:74 - Expected page title: Login - HP Banking
+2024-11-19 21:29:30 INFO  LoginPage:75 - Fetch page title: Login - HP Banking
+2024-11-19 21:29:30 INFO  LoginPageTests:25 - Login Page is opened
+2024-11-19 21:29:30 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, ExpectedMessage=Invalid credentials, Password=wrongPassword123}
+2024-11-19 21:29:30 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, ExpectedMessage=Email or Phone required, Password=123.0}
+2024-11-19 21:29:30 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, ExpectedMessage=Password required, Password=}
+2024-11-19 21:29:30 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, ExpectedMessage=null, Password=12345.0}
+2024-11-19 21:29:30 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, ExpectedMessage=null, Password=}
+2024-11-19 21:29:30 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), ExpectedMessage=null, Password=12345.0}
+2024-11-19 21:29:30 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, ExpectedMessage=null, Password=12345.0}
+2024-11-19 21:29:30 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, ExpectedMessage=null, Password=12345.0}
+2024-11-19 21:29:30 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, ExpectedMessage=null, Password=}
+2024-11-19 21:29:30 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, ExpectedMessage=null, Password=12345.0}
+2024-11-19 21:29:30 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, ExpectedMessage=null, Password=12345.0}
+2024-11-19 21:29:30 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, ExpectedMessage=null, Password=wrongPass}
+2024-11-19 21:29:30 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 21:30:32 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 21:30:33 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 21:30:33 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 21:30:33 INFO  LoginPageTests:21 - Login Page is Initialised
+2024-11-19 21:30:34 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:30:34 INFO  LoginPage:74 - Expected page title: Login - HP Banking
+2024-11-19 21:30:34 INFO  LoginPage:75 - Fetch page title: Login - HP Banking
+2024-11-19 21:30:34 INFO  LoginPageTests:25 - Login Page is opened
+2024-11-19 21:30:34 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-19 21:30:34 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-19 21:30:34 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-19 21:30:34 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-19 21:30:34 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-19 21:30:34 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-19 21:30:34 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 21:30:34 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-19 21:30:34 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-19 21:30:34 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 21:30:34 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-19 21:30:34 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-19 21:30:35 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 21:38:28 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 21:38:29 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 21:38:29 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 21:38:29 INFO  LoginPageTests:23 - Login Page is Initialised
+2024-11-19 21:38:30 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:38:30 INFO  LoginPage:74 - Expected page title: Login - HP Banking
+2024-11-19 21:38:30 INFO  LoginPage:75 - Fetch page title: Login - HP Banking
+2024-11-19 21:38:30 INFO  LoginPageTests:27 - Login Page is opened
+2024-11-19 21:38:30 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-19 21:38:30 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-19 21:38:30 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-19 21:38:30 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-19 21:38:30 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-19 21:38:30 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-19 21:38:30 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 21:38:30 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-19 21:38:30 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-19 21:38:30 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 21:38:30 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-19 21:38:30 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-19 21:38:30 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 21:38:30 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:38:30 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 21:38:30 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 21:38:31 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:38:31 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 21:38:31 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 21:38:31 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:38:31 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 21:38:31 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 21:38:31 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:38:31 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 21:38:31 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 21:38:31 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:38:31 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 21:38:31 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 21:40:00 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 21:40:02 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 21:40:02 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 21:40:02 INFO  LoginPageTests:23 - Login Page is Initialised
+2024-11-19 21:40:03 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:40:03 INFO  LoginPage:74 - Expected page title: Login - HP Banking
+2024-11-19 21:40:03 INFO  LoginPage:75 - Fetch page title: Login - HP Banking
+2024-11-19 21:40:03 INFO  LoginPageTests:27 - Login Page is opened
+2024-11-19 21:40:03 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-19 21:40:03 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-19 21:40:03 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-19 21:40:03 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-19 21:40:03 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-19 21:40:03 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-19 21:40:03 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 21:40:03 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-19 21:40:03 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-19 21:40:03 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 21:40:03 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-19 21:40:03 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-19 21:40:03 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 21:40:03 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:40:03 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 21:40:03 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 21:40:03 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:40:03 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 21:40:04 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 21:40:04 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:40:04 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 21:40:04 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 21:40:04 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:40:04 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 21:40:04 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 21:40:04 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:40:04 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 21:40:04 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 21:40:04 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 21:40:04 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 21:40:04 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 22:13:58 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 22:14:00 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 22:14:00 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 22:14:00 INFO  LoginPageTests:23 - Login Page is Initialised
+2024-11-19 22:14:01 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:14:01 INFO  LoginPage:74 - Expected page title: Login - HP Banking
+2024-11-19 22:14:01 INFO  LoginPage:75 - Fetch page title: Login - HP Banking
+2024-11-19 22:14:01 INFO  LoginPageTests:27 - Login Page is opened
+2024-11-19 22:14:01 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-19 22:14:01 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-19 22:14:01 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-19 22:14:01 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-19 22:14:01 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-19 22:14:01 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-19 22:14:01 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:14:01 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-19 22:14:01 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-19 22:14:01 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:14:01 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-19 22:14:01 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-19 22:14:01 INFO  LoginPage:126 - UserName/EmailID field is cleared
+2024-11-19 22:14:01 INFO  LoginPage:128 - Password field is cleared
+2024-11-19 22:14:01 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:14:01 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:14:01 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 22:14:01 INFO  LoginPage:126 - UserName/EmailID field is cleared
+2024-11-19 22:14:01 INFO  LoginPage:126 - UserName/EmailID field is cleared
+2024-11-19 22:14:01 INFO  LoginPage:128 - Password field is cleared
+2024-11-19 22:14:02 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:14:02 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:14:02 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 22:14:02 INFO  LoginPage:126 - UserName/EmailID field is cleared
+2024-11-19 22:14:02 INFO  LoginPage:126 - UserName/EmailID field is cleared
+2024-11-19 22:14:02 INFO  LoginPage:128 - Password field is cleared
+2024-11-19 22:14:02 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:14:02 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:14:02 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 22:14:02 INFO  LoginPage:126 - UserName/EmailID field is cleared
+2024-11-19 22:14:02 INFO  LoginPage:128 - Password field is cleared
+2024-11-19 22:14:02 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:14:02 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:14:02 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 22:14:02 INFO  LoginPage:126 - UserName/EmailID field is cleared
+2024-11-19 22:14:02 INFO  LoginPage:128 - Password field is cleared
+2024-11-19 22:14:02 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:14:02 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:14:02 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 22:14:02 INFO  LoginPage:126 - UserName/EmailID field is cleared
+2024-11-19 22:14:02 INFO  LoginPage:126 - UserName/EmailID field is cleared
+2024-11-19 22:14:02 INFO  LoginPage:128 - Password field is cleared
+2024-11-19 22:14:02 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:14:02 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:14:02 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 22:14:02 INFO  LoginPage:126 - UserName/EmailID field is cleared
+2024-11-19 22:14:02 INFO  LoginPage:126 - UserName/EmailID field is cleared
+2024-11-19 22:14:03 INFO  LoginPage:128 - Password field is cleared
+2024-11-19 22:14:03 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:14:03 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:14:03 INFO  LoginPage:89 - Fetch page title: Login - HP Banking
+2024-11-19 22:14:03 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 22:24:19 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 22:24:20 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 22:24:20 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 22:24:20 INFO  LoginPageTests:23 - Login Page is Initialised
+2024-11-19 22:24:21 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:24:21 INFO  LoginPage:74 - Expected page title: Login - HP Banking
+2024-11-19 22:24:21 INFO  LoginPage:75 - Fetch page title: Login - HP Banking
+2024-11-19 22:24:21 INFO  LoginPageTests:27 - Login Page is opened
+2024-11-19 22:24:21 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-19 22:24:21 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-19 22:24:21 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-19 22:24:21 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-19 22:24:21 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-19 22:24:21 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-19 22:24:21 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:24:21 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-19 22:24:21 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-19 22:24:21 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:24:21 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-19 22:24:21 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-19 22:24:21 INFO  LoginPage:132 - UserName/EmailID field is cleared
+2024-11-19 22:24:21 INFO  LoginPage:134 - Password field is cleared
+2024-11-19 22:24:21 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:24:21 INFO  LoginPage:132 - UserName/EmailID field is cleared
+2024-11-19 22:24:21 INFO  LoginPage:132 - UserName/EmailID field is cleared
+2024-11-19 22:24:21 INFO  LoginPage:134 - Password field is cleared
+2024-11-19 22:24:22 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:24:22 INFO  LoginPage:132 - UserName/EmailID field is cleared
+2024-11-19 22:24:22 INFO  LoginPage:132 - UserName/EmailID field is cleared
+2024-11-19 22:24:22 INFO  LoginPage:134 - Password field is cleared
+2024-11-19 22:24:22 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:24:22 INFO  LoginPage:132 - UserName/EmailID field is cleared
+2024-11-19 22:24:22 INFO  LoginPage:132 - UserName/EmailID field is cleared
+2024-11-19 22:24:22 INFO  LoginPage:134 - Password field is cleared
+2024-11-19 22:24:22 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:24:22 INFO  LoginPage:132 - UserName/EmailID field is cleared
+2024-11-19 22:24:22 INFO  LoginPage:132 - UserName/EmailID field is cleared
+2024-11-19 22:24:22 INFO  LoginPage:134 - Password field is cleared
+2024-11-19 22:24:22 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:24:22 INFO  LoginPage:132 - UserName/EmailID field is cleared
+2024-11-19 22:24:22 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 22:25:02 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 22:25:03 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 22:25:03 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 22:25:03 INFO  LoginPageTests:23 - Login Page is Initialised
+2024-11-19 22:25:04 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:25:04 INFO  LoginPage:74 - Expected page title: Login - HP Banking
+2024-11-19 22:25:04 INFO  LoginPage:75 - Fetch page title: Login - HP Banking
+2024-11-19 22:25:04 INFO  LoginPageTests:27 - Login Page is opened
+2024-11-19 22:25:04 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-19 22:25:04 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-19 22:25:04 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-19 22:25:04 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-19 22:25:04 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-19 22:25:04 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-19 22:25:04 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:25:04 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-19 22:25:04 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-19 22:25:04 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:25:04 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-19 22:25:04 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-19 22:25:05 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:25:05 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:25:05 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:25:05 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:25:05 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:25:06 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:25:06 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 22:25:23 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 22:25:24 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 22:25:24 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 22:25:24 INFO  LoginPageTests:23 - Login Page is Initialised
+2024-11-19 22:25:26 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:25:26 INFO  LoginPage:74 - Expected page title: Login - HP Banking
+2024-11-19 22:25:26 INFO  LoginPage:75 - Fetch page title: Login - HP Banking
+2024-11-19 22:25:26 INFO  LoginPageTests:27 - Login Page is opened
+2024-11-19 22:25:26 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-19 22:25:26 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-19 22:25:26 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-19 22:25:26 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-19 22:25:26 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-19 22:25:26 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-19 22:25:26 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:25:26 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-19 22:25:26 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-19 22:25:26 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:25:26 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-19 22:25:26 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-19 22:25:26 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:25:26 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:25:26 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:25:26 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:25:27 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:25:27 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:25:27 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 22:26:46 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 22:26:47 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 22:26:47 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 22:26:47 INFO  LoginPageTests:23 - Login Page is Initialised
+2024-11-19 22:26:48 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:26:48 INFO  LoginPage:74 - Expected page title: Login - HP Banking
+2024-11-19 22:26:48 INFO  LoginPage:75 - Fetch page title: Login - HP Banking
+2024-11-19 22:26:48 INFO  LoginPageTests:27 - Login Page is opened
+2024-11-19 22:26:48 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-19 22:26:48 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-19 22:26:48 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-19 22:26:48 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-19 22:26:48 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-19 22:26:48 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-19 22:26:48 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:26:48 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-19 22:26:48 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-19 22:26:48 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:26:48 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-19 22:26:48 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-19 22:26:48 INFO  LoginPageTests:53 - fetched username/email: invalidUser
+2024-11-19 22:26:48 INFO  LoginPageTests:54 - fetched password: wrongPassword123
+2024-11-19 22:26:49 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:26:49 INFO  LoginPageTests:53 - fetched username/email: validUser
+2024-11-19 22:26:49 INFO  LoginPageTests:54 - fetched password: 123.0
+2024-11-19 22:26:49 INFO  LoginPageTests:53 - fetched username/email: invalidUser
+2024-11-19 22:26:49 INFO  LoginPageTests:54 - fetched password: 
+2024-11-19 22:26:49 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:26:49 INFO  LoginPageTests:53 - fetched username/email: 
+2024-11-19 22:26:49 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:26:49 INFO  LoginPageTests:53 - fetched username/email: 
+2024-11-19 22:26:49 INFO  LoginPageTests:54 - fetched password: 
+2024-11-19 22:26:49 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:26:49 INFO  LoginPageTests:53 - fetched username/email: !@#$%^&*()
+2024-11-19 22:26:49 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:26:49 INFO  LoginPageTests:53 - fetched username/email: invalidemail.com
+2024-11-19 22:26:49 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:26:49 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:26:49 INFO  LoginPageTests:53 - fetched username/email: invalid@
+2024-11-19 22:26:49 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:26:49 INFO  LoginPageTests:53 - fetched username/email: chaudhariminal09@gmail.com
+2024-11-19 22:26:49 INFO  LoginPageTests:54 - fetched password: 
+2024-11-19 22:26:49 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:26:49 INFO  LoginPageTests:53 - fetched username/email: invalidemail.com
+2024-11-19 22:26:49 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:26:49 INFO  LoginPageTests:53 - fetched username/email: user @example.com
+2024-11-19 22:26:49 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:26:49 INFO  LoginPage:65 - Sign In button clicked
+2024-11-19 22:26:49 INFO  LoginPageTests:53 - fetched username/email: user@inv@lid.com
+2024-11-19 22:26:49 INFO  LoginPageTests:54 - fetched password: wrongPass
+2024-11-19 22:26:50 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 22:34:13 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 22:34:14 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 22:34:14 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 22:34:14 INFO  LoginPageTests:23 - Login Page is Initialised
+2024-11-19 22:34:15 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:34:15 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-19 22:34:15 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-19 22:34:15 INFO  LoginPageTests:27 - Login Page is opened
+2024-11-19 22:34:15 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-19 22:34:15 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-19 22:34:15 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-19 22:34:15 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-19 22:34:15 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-19 22:34:15 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-19 22:34:15 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:34:15 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-19 22:34:15 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-19 22:34:15 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:34:15 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-19 22:34:15 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-19 22:34:15 INFO  LoginPageTests:53 - fetched username/email: invalidUser
+2024-11-19 22:34:15 INFO  LoginPageTests:54 - fetched password: wrongPassword123
+2024-11-19 22:34:15 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:34:15 INFO  LoginPage:125 - Alert is not present
+2024-11-19 22:34:15 INFO  LoginPageTests:53 - fetched username/email: validUser
+2024-11-19 22:34:15 INFO  LoginPageTests:54 - fetched password: 123.0
+2024-11-19 22:34:15 INFO  LoginPageTests:53 - fetched username/email: invalidUser
+2024-11-19 22:34:15 INFO  LoginPageTests:54 - fetched password: 
+2024-11-19 22:34:15 INFO  LoginPageTests:53 - fetched username/email: 
+2024-11-19 22:34:15 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:34:15 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:34:15 INFO  LoginPage:125 - Alert is not present
+2024-11-19 22:34:15 INFO  LoginPageTests:53 - fetched username/email: 
+2024-11-19 22:34:15 INFO  LoginPageTests:54 - fetched password: 
+2024-11-19 22:34:15 INFO  LoginPageTests:53 - fetched username/email: !@#$%^&*()
+2024-11-19 22:34:15 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:34:15 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:34:15 INFO  LoginPage:125 - Alert is not present
+2024-11-19 22:34:15 INFO  LoginPageTests:53 - fetched username/email: invalidemail.com
+2024-11-19 22:34:15 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:34:16 INFO  LoginPageTests:53 - fetched username/email: invalid@
+2024-11-19 22:34:16 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:34:16 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:34:16 INFO  LoginPage:125 - Alert is not present
+2024-11-19 22:34:16 INFO  LoginPageTests:53 - fetched username/email: chaudhariminal09@gmail.com
+2024-11-19 22:34:16 INFO  LoginPageTests:54 - fetched password: 
+2024-11-19 22:34:16 INFO  LoginPageTests:53 - fetched username/email: invalidemail.com
+2024-11-19 22:34:16 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:34:16 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:34:16 INFO  LoginPage:125 - Alert is not present
+2024-11-19 22:34:16 INFO  LoginPageTests:53 - fetched username/email: user @example.com
+2024-11-19 22:34:16 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:34:16 INFO  LoginPageTests:53 - fetched username/email: user@inv@lid.com
+2024-11-19 22:34:16 INFO  LoginPageTests:54 - fetched password: wrongPass
+2024-11-19 22:34:16 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:34:16 INFO  LoginPage:125 - Alert is not present
+2024-11-19 22:34:16 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 22:36:34 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 22:36:35 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 22:36:35 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 22:36:35 INFO  LoginPageTests:23 - Login Page is Initialised
+2024-11-19 22:36:36 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:36:36 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-19 22:36:36 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-19 22:36:36 INFO  LoginPageTests:27 - Login Page is opened
+2024-11-19 22:36:36 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-19 22:36:36 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-19 22:36:36 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-19 22:36:36 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-19 22:36:36 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-19 22:36:36 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-19 22:36:36 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:36:36 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-19 22:36:36 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-19 22:36:36 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:36:36 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-19 22:36:36 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-19 22:36:36 INFO  LoginPageTests:53 - fetched username/email: invalidUser
+2024-11-19 22:36:36 INFO  LoginPageTests:54 - fetched password: wrongPassword123
+2024-11-19 22:36:36 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:36:36 INFO  LoginPage:125 - Alert is not present
+2024-11-19 22:36:36 INFO  LoginPageTests:53 - fetched username/email: validUser
+2024-11-19 22:36:36 INFO  LoginPageTests:54 - fetched password: 123.0
+2024-11-19 22:36:36 INFO  LoginPageTests:53 - fetched username/email: invalidUser
+2024-11-19 22:36:36 INFO  LoginPageTests:54 - fetched password: 
+2024-11-19 22:36:36 INFO  LoginPageTests:53 - fetched username/email: 
+2024-11-19 22:36:36 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:36:36 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:36:36 INFO  LoginPage:125 - Alert is not present
+2024-11-19 22:36:36 INFO  LoginPageTests:53 - fetched username/email: 
+2024-11-19 22:36:36 INFO  LoginPageTests:54 - fetched password: 
+2024-11-19 22:36:36 INFO  LoginPageTests:53 - fetched username/email: !@#$%^&*()
+2024-11-19 22:36:36 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:36:37 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:36:37 INFO  LoginPage:125 - Alert is not present
+2024-11-19 22:36:37 INFO  LoginPageTests:53 - fetched username/email: invalidemail.com
+2024-11-19 22:36:37 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:36:37 INFO  LoginPageTests:53 - fetched username/email: invalid@
+2024-11-19 22:36:37 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:36:37 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:36:37 INFO  LoginPage:125 - Alert is not present
+2024-11-19 22:36:37 INFO  LoginPageTests:53 - fetched username/email: chaudhariminal09@gmail.com
+2024-11-19 22:36:37 INFO  LoginPageTests:54 - fetched password: 
+2024-11-19 22:36:37 INFO  LoginPageTests:53 - fetched username/email: invalidemail.com
+2024-11-19 22:36:37 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:36:37 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:36:37 INFO  LoginPage:125 - Alert is not present
+2024-11-19 22:36:37 INFO  LoginPageTests:53 - fetched username/email: user @example.com
+2024-11-19 22:36:37 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:36:37 INFO  LoginPageTests:53 - fetched username/email: user@inv@lid.com
+2024-11-19 22:36:37 INFO  LoginPageTests:54 - fetched password: wrongPass
+2024-11-19 22:36:37 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:36:37 INFO  LoginPage:125 - Alert is not present
+2024-11-19 22:36:37 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 22:38:27 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 22:38:28 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 22:38:28 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 22:38:28 INFO  LoginPageTests:23 - Login Page is Initialised
+2024-11-19 22:38:30 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:38:30 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-19 22:38:30 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-19 22:38:30 INFO  LoginPageTests:27 - Login Page is opened
+2024-11-19 22:38:30 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-19 22:38:30 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-19 22:38:30 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-19 22:38:30 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-19 22:38:30 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-19 22:38:30 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-19 22:38:30 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:38:30 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-19 22:38:30 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-19 22:38:30 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:38:30 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-19 22:38:30 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-19 22:38:30 INFO  LoginPageTests:53 - fetched username/email: invalidUser
+2024-11-19 22:38:30 INFO  LoginPageTests:54 - fetched password: wrongPassword123
+2024-11-19 22:38:30 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:38:30 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:38:30 INFO  LoginPageTests:53 - fetched username/email: validUser
+2024-11-19 22:38:30 INFO  LoginPageTests:54 - fetched password: 123.0
+2024-11-19 22:38:31 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:38:31 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:38:31 INFO  LoginPageTests:53 - fetched username/email: invalidUser
+2024-11-19 22:38:31 INFO  LoginPageTests:54 - fetched password: 
+2024-11-19 22:38:31 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:38:32 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:38:32 INFO  LoginPageTests:53 - fetched username/email: 
+2024-11-19 22:38:32 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:38:32 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:38:32 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:38:32 INFO  LoginPageTests:53 - fetched username/email: 
+2024-11-19 22:38:32 INFO  LoginPageTests:54 - fetched password: 
+2024-11-19 22:38:33 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:38:33 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:38:33 INFO  LoginPageTests:53 - fetched username/email: !@#$%^&*()
+2024-11-19 22:38:33 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:38:33 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:38:34 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:38:34 INFO  LoginPageTests:53 - fetched username/email: invalidemail.com
+2024-11-19 22:38:34 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:38:34 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:38:34 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:38:34 INFO  LoginPageTests:53 - fetched username/email: invalid@
+2024-11-19 22:38:34 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:38:35 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:38:35 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:38:35 INFO  LoginPageTests:53 - fetched username/email: chaudhariminal09@gmail.com
+2024-11-19 22:38:35 INFO  LoginPageTests:54 - fetched password: 
+2024-11-19 22:38:35 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:38:36 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:38:36 INFO  LoginPageTests:53 - fetched username/email: invalidemail.com
+2024-11-19 22:38:36 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:38:36 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:38:36 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:38:36 INFO  LoginPageTests:53 - fetched username/email: user @example.com
+2024-11-19 22:38:36 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:38:37 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:38:37 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:38:37 INFO  LoginPageTests:53 - fetched username/email: user@inv@lid.com
+2024-11-19 22:38:37 INFO  LoginPageTests:54 - fetched password: wrongPass
+2024-11-19 22:38:37 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:38:38 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:38:38 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-19 22:39:43 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 22:39:45 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 22:39:45 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 22:39:45 INFO  LoginPageTests:23 - Login Page is Initialised
+2024-11-19 22:39:46 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:39:46 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-19 22:39:46 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-19 22:39:46 INFO  LoginPageTests:27 - Login Page is opened
+2024-11-19 22:39:46 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-19 22:39:46 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-19 22:39:46 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-19 22:39:46 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-19 22:39:46 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-19 22:39:46 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-19 22:39:46 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:39:46 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-19 22:39:46 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-19 22:39:46 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:39:46 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-19 22:39:46 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-19 22:39:46 INFO  LoginPageTests:53 - fetched username/email: invalidUser
+2024-11-19 22:39:46 INFO  LoginPageTests:54 - fetched password: wrongPassword123
+2024-11-19 22:39:46 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:39:47 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:39:57 INFO  LoginPageTests:53 - fetched username/email: validUser
+2024-11-19 22:39:57 INFO  LoginPageTests:54 - fetched password: 123.0
+2024-11-19 22:39:57 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:39:58 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:40:08 INFO  LoginPageTests:53 - fetched username/email: invalidUser
+2024-11-19 22:40:08 INFO  LoginPageTests:54 - fetched password: 
+2024-11-19 22:40:08 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:40:09 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:40:19 INFO  LoginPageTests:53 - fetched username/email: 
+2024-11-19 22:40:19 INFO  LoginPageTests:54 - fetched password: 12345.0
+2024-11-19 22:40:19 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:40:19 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:40:56 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-19 22:40:57 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-19 22:40:57 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-19 22:40:57 INFO  LoginPageTests:23 - Login Page is Initialised
+2024-11-19 22:40:58 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-19 22:40:58 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-19 22:40:58 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-19 22:40:58 INFO  LoginPageTests:27 - Login Page is opened
+2024-11-19 22:40:58 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-19 22:40:58 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-19 22:40:58 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-19 22:40:58 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-19 22:40:58 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-19 22:40:58 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-19 22:40:58 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:40:58 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-19 22:40:58 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-19 22:40:58 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-19 22:40:58 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-19 22:40:58 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-19 22:40:58 INFO  LoginPageTests:53 - fetched username/email: invalidUser
+2024-11-19 22:40:58 INFO  LoginPageTests:54 - fetched password: wrongPassword123
+2024-11-19 22:40:58 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:40:59 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-19 22:41:09 INFO  LoginPageTests:53 - fetched username/email: validUser
+2024-11-19 22:41:09 INFO  LoginPageTests:54 - fetched password: 123.0
+2024-11-19 22:41:09 INFO  LoginPage:67 - Sign In button clicked
+2024-11-19 22:41:10 INFO  LoginPage:123 - Fetched text from alert: Please Enter Your Correct Username/Email or Password !!
+2024-11-20 16:01:17 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-20 16:01:19 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-20 16:01:19 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-20 16:01:19 INFO  LoginPageTests:23 - Login Page is Initialised
+2024-11-20 16:01:20 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-20 16:01:20 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-20 16:01:20 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-20 16:01:20 INFO  LoginPageTests:27 - Login Page is opened
+2024-11-20 16:01:20 INFO  LoginPage:43 - Minal_Ch
+2024-11-20 16:01:20 INFO  LoginPage:45 - 12345
+2024-11-20 16:01:20 INFO  LoginPage:48 - Sign In button clicked
+2024-11-20 16:01:32 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-27 21:25:30 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-27 21:25:54 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-27 21:34:51 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-27 21:38:20 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-27 21:38:23 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-27 21:38:23 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-27 21:38:23 INFO  LoginPageTests:26 - Login Page is Initialised
+2024-11-27 21:38:24 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 21:38:25 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 21:38:25 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 21:38:25 INFO  LoginPageTests:30 - Login Page is opened
+2024-11-27 21:38:25 INFO  LoginPage:43 - Minal_Ch
+2024-11-27 21:38:25 INFO  LoginPage:45 - Mkiopl@123
+2024-11-27 21:38:25 INFO  LoginPage:48 - Sign In button clicked
+2024-11-27 21:38:25 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 21:38:25 INFO  LoginPage:91 - Fetch page title: User Dashboard - HP Banking
+2024-11-27 21:38:25 INFO  ActionUtils:108 - Clicking button
+2024-11-27 21:38:26 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 21:38:26 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 21:38:26 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 21:38:26 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-27 21:44:55 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-27 21:44:56 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-27 21:44:56 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-27 21:44:56 INFO  LoginPageTests:26 - Login Page is Initialised
+2024-11-27 21:44:58 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 21:44:58 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 21:44:58 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 21:44:58 INFO  LoginPageTests:30 - Login Page is opened
+2024-11-27 21:44:58 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-27 21:50:17 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-27 21:50:18 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-27 21:50:18 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-27 21:50:18 INFO  LoginPageTests:26 - Login Page is Initialised
+2024-11-27 21:50:20 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 21:50:20 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 21:50:20 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 21:50:20 INFO  LoginPageTests:30 - Login Page is opened
+2024-11-27 21:50:21 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-27 21:51:41 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-27 21:51:43 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-27 21:51:43 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-27 21:51:43 INFO  LoginPageTests:26 - Login Page is Initialised
+2024-11-27 21:51:45 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 21:51:45 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 21:51:45 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 21:51:45 INFO  LoginPageTests:30 - Login Page is opened
+2024-11-27 21:51:45 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-27 21:53:34 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-27 21:53:35 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-27 21:53:35 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-27 21:53:35 INFO  LoginPageTests:26 - Login Page is Initialised
+2024-11-27 21:53:37 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 21:53:37 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 21:53:37 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 21:53:37 INFO  LoginPageTests:30 - Login Page is opened
+2024-11-27 21:53:37 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-27 21:53:58 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-27 21:53:59 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-27 21:53:59 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-27 21:53:59 INFO  LoginPageTests:26 - Login Page is Initialised
+2024-11-27 21:54:01 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 21:54:01 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 21:54:01 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 21:54:01 INFO  LoginPageTests:30 - Login Page is opened
+2024-11-27 21:54:01 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-27 22:01:15 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-27 22:01:16 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-27 22:01:16 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-27 22:01:16 INFO  LoginPageTests:26 - Login Page is Initialised
+2024-11-27 22:01:17 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 22:01:17 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 22:01:17 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 22:01:17 INFO  LoginPageTests:30 - Login Page is opened
+2024-11-27 22:01:18 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-27 22:07:07 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-27 22:07:08 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-27 22:07:08 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-27 22:07:08 INFO  LoginPageTests:26 - Login Page is Initialised
+2024-11-27 22:07:10 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 22:07:10 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 22:07:10 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 22:07:10 INFO  LoginPageTests:30 - Login Page is opened
+2024-11-27 22:07:10 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-27 22:11:15 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-27 22:11:17 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-27 22:11:17 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-27 22:11:17 INFO  LoginPageTests:26 - Login Page is Initialised
+2024-11-27 22:11:18 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 22:11:18 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 22:11:18 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 22:11:18 INFO  LoginPageTests:30 - Login Page is opened
+2024-11-27 22:11:18 INFO  TestData:66 - Row 1 data: {Comment=Enter invalid username and incorrect password, UserName/Email=invalidUser, Password=wrongPassword123}
+2024-11-27 22:11:18 INFO  TestData:66 - Row 2 data: {Comment=Enter valid username and incorrect password, UserName/Email=validUser, Password=123.0}
+2024-11-27 22:11:18 INFO  TestData:66 - Row 3 data: {Comment=Enter invalid username and leave password field blank, UserName/Email=invalidUser, Password=}
+2024-11-27 22:11:18 INFO  TestData:66 - Row 4 data: {Comment=Leave username field blank and enter valid password, UserName/Email=, Password=12345.0}
+2024-11-27 22:11:18 INFO  TestData:66 - Row 5 data: {Comment=Leave both fields blank, UserName/Email=, Password=}
+2024-11-27 22:11:18 INFO  TestData:66 - Row 6 data: {Comment=Enter special characters in username field, UserName/Email=!@#$%^&*(), Password=12345.0}
+2024-11-27 22:11:18 INFO  TestData:66 - Row 7 data: {Comment=Enter invalid email without "@", UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-27 22:11:18 INFO  TestData:66 - Row 8 data: {Comment=Enter email without domain, UserName/Email=invalid@, Password=12345.0}
+2024-11-27 22:11:18 INFO  TestData:66 - Row 9 data: {Comment=Enter valid email and blank password, UserName/Email=chaudhariminal09@gmail.com, Password=}
+2024-11-27 22:11:18 INFO  TestData:66 - Row 10 data: {Comment=Enter invalid email and valid password, UserName/Email=invalidemail.com, Password=12345.0}
+2024-11-27 22:11:18 INFO  TestData:66 - Row 11 data: {Comment=Enter email with spaces and valid password, UserName/Email=user @example.com, Password=12345.0}
+2024-11-27 22:11:18 INFO  TestData:66 - Row 12 data: {Comment=Enter email with special characters and invalid password, UserName/Email=user@inv@lid.com, Password=wrongPass}
+2024-11-27 22:11:18 INFO  LoginPageTests:56 - fetched username/email: invalidUser
+2024-11-27 22:11:18 INFO  LoginPageTests:57 - fetched password: wrongPassword123
+2024-11-27 22:11:19 INFO  LoginPage:67 - Sign In button clicked
+2024-11-27 22:11:29 INFO  LoginPageTests:56 - fetched username/email: validUser
+2024-11-27 22:11:29 INFO  LoginPageTests:57 - fetched password: 123.0
+2024-11-27 22:11:29 INFO  LoginPage:67 - Sign In button clicked
+2024-11-27 22:11:40 INFO  LoginPageTests:56 - fetched username/email: invalidUser
+2024-11-27 22:11:40 INFO  LoginPageTests:57 - fetched password: 
+2024-11-27 22:11:40 INFO  LoginPage:67 - Sign In button clicked
+2024-11-27 22:11:50 INFO  LoginPageTests:56 - fetched username/email: 
+2024-11-27 22:11:50 INFO  LoginPageTests:57 - fetched password: 12345.0
+2024-11-27 22:11:51 INFO  LoginPage:67 - Sign In button clicked
+2024-11-27 22:12:01 INFO  LoginPageTests:56 - fetched username/email: 
+2024-11-27 22:12:01 INFO  LoginPageTests:57 - fetched password: 
+2024-11-27 22:12:01 INFO  LoginPage:67 - Sign In button clicked
+2024-11-27 22:12:11 INFO  LoginPageTests:56 - fetched username/email: !@#$%^&*()
+2024-11-27 22:12:11 INFO  LoginPageTests:57 - fetched password: 12345.0
+2024-11-27 22:12:12 INFO  LoginPage:67 - Sign In button clicked
+2024-11-27 22:12:22 INFO  LoginPageTests:56 - fetched username/email: invalidemail.com
+2024-11-27 22:12:22 INFO  LoginPageTests:57 - fetched password: 12345.0
+2024-11-27 22:12:22 INFO  LoginPage:67 - Sign In button clicked
+2024-11-27 22:12:32 INFO  LoginPageTests:56 - fetched username/email: invalid@
+2024-11-27 22:12:32 INFO  LoginPageTests:57 - fetched password: 12345.0
+2024-11-27 22:12:33 INFO  LoginPage:67 - Sign In button clicked
+2024-11-27 22:12:43 INFO  LoginPageTests:56 - fetched username/email: chaudhariminal09@gmail.com
+2024-11-27 22:12:43 INFO  LoginPageTests:57 - fetched password: 
+2024-11-27 22:12:43 INFO  LoginPage:67 - Sign In button clicked
+2024-11-27 22:12:53 INFO  LoginPageTests:56 - fetched username/email: invalidemail.com
+2024-11-27 22:12:53 INFO  LoginPageTests:57 - fetched password: 12345.0
+2024-11-27 22:12:54 INFO  LoginPage:67 - Sign In button clicked
+2024-11-27 22:13:04 INFO  LoginPageTests:56 - fetched username/email: user @example.com
+2024-11-27 22:13:04 INFO  LoginPageTests:57 - fetched password: 12345.0
+2024-11-27 22:13:04 INFO  LoginPage:67 - Sign In button clicked
+2024-11-27 22:13:14 INFO  LoginPageTests:56 - fetched username/email: user@inv@lid.com
+2024-11-27 22:13:14 INFO  LoginPageTests:57 - fetched password: wrongPass
+2024-11-27 22:13:14 INFO  LoginPage:67 - Sign In button clicked
+2024-11-27 22:13:16 INFO  LoginPageTests:45 - Setting up driver ...
+2024-11-27 22:13:18 INFO  LoginPageTests:52 - Chrome browser initialized.
+2024-11-27 22:13:18 INFO  LoginPageTests:67 - Driver setup complete ...
+2024-11-27 22:13:18 INFO  LoginPageTests:26 - Login Page is Initialised
+2024-11-27 22:13:19 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 22:13:19 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 22:13:19 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 22:13:19 INFO  LoginPageTests:30 - Login Page is opened
+2024-11-27 22:13:20 INFO  LoginPage:59 - Sign In button clicked
+2024-11-27 22:13:20 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 22:13:20 INFO  LoginPage:91 - Fetch page title: User Dashboard - HP Banking
+2024-11-27 22:13:20 INFO  ActionUtils:108 - Clicking button
+2024-11-27 22:13:21 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 22:13:21 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 22:13:21 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 22:13:21 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-27 22:13:25 INFO  LoginPageTests:93 - Driver tear down complete ...
+2024-11-27 22:31:58 INFO  LoginPageTests:44 - Setting up driver ...
+2024-11-27 22:31:59 INFO  LoginPageTests:51 - Chrome browser initialized.
+2024-11-27 22:31:59 INFO  LoginPageTests:66 - Driver setup complete ...
+2024-11-27 22:31:59 INFO  LoginPageTests:26 - Login Page is Initialised
+2024-11-27 22:32:01 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 22:32:01 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 22:32:01 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 22:32:01 INFO  LoginPageTests:30 - Login Page is opened
+2024-11-27 22:32:01 INFO  LoginPageTests:77 - Driver tear down complete ...
+2024-11-27 22:32:31 INFO  LoginPageTests:44 - Setting up driver ...
+2024-11-27 22:32:32 INFO  LoginPageTests:51 - Chrome browser initialized.
+2024-11-27 22:32:32 INFO  LoginPageTests:66 - Driver setup complete ...
+2024-11-27 22:32:32 INFO  LoginPageTests:26 - Login Page is Initialised
+2024-11-27 22:32:34 INFO  ActionUtils:95 - Fetching title of page...
+2024-11-27 22:32:34 INFO  LoginPage:76 - Expected page title: Login - HP Banking
+2024-11-27 22:32:34 INFO  LoginPage:77 - Fetch page title: Login - HP Banking
+2024-11-27 22:32:34 INFO  LoginPageTests:30 - Login Page is opened
+2024-11-27 22:32:34 INFO  LoginPageTests:83 - SELECT * FROM account WHERE user_name = 'Minal Chaudhari'
+2024-11-27 22:32:34 INFO  LoginPageTests:77 - Driver tear down complete ...
