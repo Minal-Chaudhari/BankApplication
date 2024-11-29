@@ -18,8 +18,13 @@ public class TestData {
     //sheet = 'InvalidLoginTestData' --> this sheet has testdata for invalid login
     @DataProvider(name = "fetchInvalidLoginTestData")
     public static Object[][] fetchInvalidLoginTestData() {
-
         return readProductDataFromExcel("InvalidLoginTestData");
+    }
+
+    //sheet = '' --> this sheet has valid testdata for valid creation of user
+    @DataProvider(name = "fetchValidCreateAccountTestData")
+    public static Object[][] fetchValidCreateAccountTestData(){
+        return readProductDataFromExcel("CreateAccountValidData");
     }
 
     //method will read data from excel with sheetname (dynamic headers added here)

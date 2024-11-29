@@ -32,9 +32,16 @@ public class LoginPage {
         WebElement passwordElement = action.getElement(LoginPageLocators.enterPassword);
         WebElement signInElement = action.getElement(LoginPageLocators.signInButton);
 
+        userNameElement.click();
+        userNameElement.clear();
         userNameElement.sendKeys(userName);
+
+        passwordElement.click();
+        passwordElement.clear();
         passwordElement.sendKeys(password);
+
         signInElement.click();
+
     }
 
     //method will fetch valid values from property file and login (Valid login with UserName and pass)
@@ -142,9 +149,9 @@ public class LoginPage {
 
     //click ok on alert for login
     public void clickAlertOK(){
-        wait.waitForAlertToBePresent(10);
+        //wait.waitForAlertToBePresent(10);
         driver.switchTo().alert().accept();
-        logger.info("Clicked OK in from alert");
+        logger.info("Clicked OK in alert");
     }
 
     //INCOMPLETE
@@ -162,5 +169,11 @@ public class LoginPage {
         action.clickButton(LoginPageLocators.enterPassword);
         action.clearField(LoginPageLocators.enterPassword);
         logger.info("Password field is cleared");
+    }
+
+    //INCOMPLETE
+    //method will check in database if user is visible in mysql database
+    public boolean isAccountCreated(){
+        return true;
     }
 }
