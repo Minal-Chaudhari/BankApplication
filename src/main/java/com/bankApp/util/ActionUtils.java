@@ -149,6 +149,13 @@ public class ActionUtils {
         driver.switchTo().activeElement().sendKeys(value);
     }
 
+    //method will click on field and send values
+    public void clickAndSendValue(String value, By locator){
+        WebElement element = driver.findElement(locator);
+        element.click();
+        element.sendKeys(value);
+    }
+
     //get popup test
     public String getPopUpText(By locator) {
         String popUpText = null;

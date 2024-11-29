@@ -25,7 +25,7 @@ public class LoginPageTests extends BaseClass {
         login = new LoginPage(driver);
         logger.info("Login Page is Initialised");
 
-        driver.navigate().to(BaseClass.getProperty("loginUrl"));
+        driver.navigate().to(getProperty("loginUrl"));
         Assert.assertTrue(login.isLoginPageOpened(),"Login Page is not opened");
         logger.info("Login Page is opened");
     }
@@ -47,11 +47,10 @@ public class LoginPageTests extends BaseClass {
         Assert.assertTrue(login.isLoginPageOpened(),"User is not logged Out");
     }
 
-
     @Test(priority = 1,description = "LGN_003: Validate invalid login", groups = {"smoke","regression","sanity","allTestSuite"},dataProviderClass = TestData.class, dataProvider = "fetchInvalidLoginTestData")
     public void invalidLogin(Map<String, String> testData){
 
-        String userNameOrEmail = testData.get("UserName/Email");
+        String userNameOrEmail = testData.get("Username/Email");
         String password = testData.get("Password");
         logger.info("fetched username/email: {}",userNameOrEmail);
         logger.info("fetched password: {}",password);
